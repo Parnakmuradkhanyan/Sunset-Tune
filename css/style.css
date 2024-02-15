@@ -1,0 +1,160 @@
+body::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+    background-color: transparent;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: rgba(0, 0, 0, 0);
+}
+body::-webkit-scrollbar-track{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* inter-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../site-fonts/inter-v13-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* inter-500 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../site-fonts/inter-v13-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* inter-600 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../site-fonts/inter-v13-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* inter-700 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../site-fonts/inter-v13-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* inter-800 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../site-fonts/inter-v13-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* inter-900 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../site-fonts/inter-v13-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+:root{
+
+}
+
+body{
+    font-family: 'Inter';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+.header{
+    background: url(../img/main-header-pic.jpg) no-repeat;
+    background-size: cover;
+
+}
+
+.navbar-color{
+    background: transparent;
+}
+
+.menu-text{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.3;
+    transition: all 0.2s ease;
+}
+
+.menu-text:hover{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.3;
+    transition: all 0.2s ease;
+}
+
+.logo-nav{
+    width: 59.29px;
+    height: 63.91px;
+}
+.search-form{
+    background-color: transparent;
+    border-color: var(--bs-white);
+    border-radius: 23px;
+    color: var(--bs-white);
+}
+.fnd-btn{
+    background-color: var(--color-find-button);
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+
+.fnd-btn:hover{
+    background-color: var(--color-find-button-hover);
+}
+
+.navbar-light .navbar-toggler {
+    color: rgb(255 255 255);
+}
+
+.form-control{
+    color: var(--bs-white);
+}
+
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #cfcfcf;
+}
+
+.slogan{
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1.3;
+    margin-top: 180px;
+    margin-left: 100px;
+    margin-bottom: 340px;
+}
+
